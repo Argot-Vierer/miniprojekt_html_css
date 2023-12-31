@@ -1,0 +1,194 @@
+/* To jest komentarz */
+/* tu bedzie ostylowanie elementów z html */
+/* p, nav, ul, li{
+    display: inline;
+} */
+/* Plik CSS */
+/* General rules */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,500&family=Red+Hat+Display:wght@600;900&display=swap');
+
+:root{
+
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling elements in listed order */
+
+/* container */
+
+#container{
+    width: 1000px;
+    margin 0 auto;
+    border: 5px solid rgb(133, 129, 135);
+    border-radius: 20px;
+    
+}
+
+/* header */
+
+selector {
+  wlasciwosc: wartosc1;
+  wlasciwosc: wartosc2;
+}
+
+header {
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  
+}
+
+nav ul li{
+    display: inline-block;
+}
+/* Domyslnie 1rem=1em to 16px */
+
+nav ul li a{
+
+    font-size: 14px;
+    color: black;
+    padding: 12px 15px;
+    text-decoration: none;
+
+    border-radius: 11px;
+   background: #e0e0e0;
+box-shadow:  11px -11px 31px #acacac,
+             -11px 11px 31px #ffffff;
+
+}
+
+
+/* pseudoklasa CSS */
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+
+    background: rgba(39, 38, 39, 0.35);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  /* Korzystajac tylko z pseudoklas zmien kolor na niebieski napisu Strona glowna w menu */
+  nav ul li:first-child a{
+      color: blue;
+  }
+
+  
+  /* Slider */
+  .slider img{
+      display: block;
+  }
+  
+  /* Main */
+  main{
+    display: flex;
+    background-color: rgb(211, 211, 211);
+  }
+  
+  article{
+    width: 70%;
+    background-color: lightgray;
+    margin-left: 20px;
+  }
+  
+  article img{
+    margin-left: 20px;
+    border: 5px solid red;
+  }
+  
+  aside{
+    background-color: darkgrey;
+    width: 30%;
+  }
+  
+  .widget{
+    padding-bottom: 50px;
+  }
+  
+  .widget img{
+    border: 3px dotted rgb(31, 31, 64);
+    float: left;
+    margin: 0 5px 3px 0;
+  }
+  
+  /* Links */
+  .links ul {
+    list-style-type: square;
+    padding-left: 30px;
+  }
+  
+  .links ul li{
+    padding-bottom: 20px;
+  }
+  
+  .widget, .links{
+    padding-left: 15px;
+  }
+
+  .social{
+    display: flex;
+    justify-content:flex-start;
+    background-color:rgb(255, 255, 255);
+    
+  }
+  .bi{
+    font-size: 1.0rem;
+    color: rgb(81, 85, 85);
+    display:inline-flexbox;
+    padding: 12px;  
+
+  }
+  .bi-facebook:hover
+   {
+    opacity: 0.5;
+  
+}
+
+.bi-youtube:hover
+{
+ opacity: 0.5;
+}
+
+.bi-instagram:hover
+{
+ opacity: 0.5;
+}
+
+.bi-linkedin:hover
+{
+ opacity: 0.5;
+}
+
+.pfooter{
+  padding-left: 20px;
+}
+
+
+  
+  /* Footer */
+  /* homework ładnie ostylowac w CSS */
+  
